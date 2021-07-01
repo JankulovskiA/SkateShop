@@ -1,0 +1,28 @@
+﻿@model SkateShop.Models.Item
+
+@{
+    ViewBag.Title = "ShowItem";
+}
+<br />
+<div>
+    <h2> @Html.DisplayFor(model => model.name)</h2>
+    <hr />
+    <div class="row">
+        <div class="col-md-6">
+            <img src="@Model.img" />
+        </div>
+        <div class="col-md-6">
+            @if(Model.info!="")
+                    {
+                        <h4 style="width:300px">@Model.info</h4>
+                    }
+        </div>
+    </div>
+</div>
+<div>
+<h3>@Html.DisplayNameFor(model => model.price) :</h3>
+    <h4><b>@Html.DisplayFor(model => model.price) ден</b></h4>
+</div>
+<p>
+    @Html.ActionLink("Back to List", "Index")
+</p>
