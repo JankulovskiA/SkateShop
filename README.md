@@ -1,6 +1,6 @@
 ﻿# Skate-Shop
 
-A basic online shop for buying skateboards and skateboard equipment. The shop has separate interface and functionalities for users and admins. Users can see the catalog of the available products and purchase them and admins can modify the products.
+A basic online shop for buying skateboards and skateboard equipment. The shop has a separate interface and functionalities for users and admins. Users can see the catalog of the available products and purchase them and admins can modify the products.
 
 <b>Shop functionalities</b>
 
