@@ -3,9 +3,9 @@
 # A basic online shop for buying skateboards and skateboard equipment.
 
 
-Shop functionality
+# Shop functionality
 
-User <br/>
+<b>User<b/> <br/>
 Creating an account <br/>
 Logging into the account <br/>
 Lissting any type of products <br/>
